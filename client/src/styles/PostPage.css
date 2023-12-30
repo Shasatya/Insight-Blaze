@@ -1,0 +1,58 @@
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.post-page h1 {
+    font-size: 1.8rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.post-page time {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.author {
+    font-weight: 600;
+    color:gray;
+    margin-bottom: 2rem;
+}
+
+.content {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.edit-row {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem 0.2rem;
+    width: 8rem;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media (width<501px) {
+    .post-page h1 {
+        font-size: 1.2rem;
+    }
+
+    .post-page time {
+        font-size: 1rem;
+    }
+
+    .author {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .content {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+}

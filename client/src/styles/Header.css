@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-links {
+    transition: 0.5s ease;
+}
+
+.nav-links:hover {
+    color: #888;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+.logged-in img {
+    border: 1px solid #333;
+}
+
+.logged-in {
+    background-image: url("https://img.freepik.com/premium-vector/brunette-man-avatar-portrait-young-guy-vector-illustration-face_217290-1035.jpg?ga=GA1.1.720577461.1703679862&semt=sph");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid #333;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.logged-in:hover .user-details {
+    display: block;
+}
+
+.user-details {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    width: 150px;
+    z-index: 1;
+    padding-bottom: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(18px);
+    border-radius: 10px;
+}
+
+.user-details p {
+    margin: 0rem;
+    padding: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-e {
+    font-weight: 600;
+    transition: 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-e:hover {
+    background-color: #f2f0df;
+}
+
+@media (width<501px) {
+    .logo {
+        font-size: 1rem;
+    }
+}

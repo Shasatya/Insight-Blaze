@@ -1,0 +1,56 @@
+  @import url('https://fonts.googleapis.com/css2?family=Uchen&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600;1,700&display=swap');
+
+  * {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  body {
+    color: #222;
+    background-color: #f2f0df;
+  }
+
+  main {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px 7px;
+    border: 1px solid #222;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f2f0df;
+  }
+
+  button {
+    width: 100%;
+    display: block;
+    background-color: #222;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 0;
+    cursor: pointer;
+  }
+
+  .form {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 380px;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .form h1 {
+    text-align: center;
+    color: var(--white);
+  }
